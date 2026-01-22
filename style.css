@@ -1,0 +1,126 @@
+#menubar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: lavenderblush;
+  }
+
+#menubar li a {
+    display: flex;
+    padding: 1rem;
+    color: purple;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#menubar li a:hover {
+    background-color: pink;
+}
+
+#profilepic {
+    width: 25%;
+    height: 25%;
+}
+
+#linkedin {
+    width: 5em;
+}
+
+#profilecontainer, .titlediv, .projectdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10% 0 10%;
+}
+
+.infodiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: larger;
+}
+
+.infodiv a {
+    width: min-content;
+    height: min-content;
+}
+
+.socialcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.projectdiv {
+    flex-direction: row;
+    border-style: solid;
+    border-color: purple;
+    padding: 1em;
+}
+
+.projecttitle {
+    display: flex;
+    position: relative;
+    top: 0;
+    flex-direction: column;
+}
+
+.projecttitle h4 {
+    text-align: left;
+}
+
+.projecttext {
+    width: 100%;
+}
+
+.projecttext p {
+    display: inline;
+}
+
+.projecttext a {
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    padding: 0.5em;
+    margin: 0;
+    background-color: purple;
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+
+h1, h4, p {
+    font-family: 'Courier New', monospace;
+}
+
+h1, h4 {
+    color: purple;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
